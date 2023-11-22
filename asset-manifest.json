@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/tastymaria/static/css/main.601841a3.css",
+    "main.js": "/tastymaria/static/js/main.39ca0a80.js",
+    "static/media/mealvideo.mp4": "/tastymaria/static/media/mealvideo.ad7a3cc622462943fd45.mp4",
+    "static/media/bg.png": "/tastymaria/static/media/bg.3d421b1b5682e1b67deb.png",
+    "static/media/welcome.png": "/tastymaria/static/media/welcome.d724eb984456d9c97470.png",
+    "static/media/fish.JPG": "/tastymaria/static/media/fish.e9b0cfaa7e7d237cfa30.JPG",
+    "static/media/fa-solid-900.ttf": "/tastymaria/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/friedfish.jpeg": "/tastymaria/static/media/friedfish.fe452754722ece78e1d9.jpeg",
+    "static/media/findus.JPG": "/tastymaria/static/media/findus.248e8a4cb25dff701a9d.JPG",
+    "static/media/cocktail.jpeg": "/tastymaria/static/media/cocktail.e510c095fb9065a9da53.jpeg",
+    "static/media/knife.png": "/tastymaria/static/media/knife.1121c0a5afb62acb31cb.png",
+    "static/media/overlaybg.png": "/tastymaria/static/media/overlaybg.165362eea72d1614ae28.png",
+    "static/media/fa-brands-400.ttf": "/tastymaria/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/seashrimp.JPG": "/tastymaria/static/media/seashrimp.a1546d4b3ee1ba06d107.JPG",
+    "static/media/tastymenu.JPG": "/tastymaria/static/media/tastymenu.7c4ce394c6eaee66ef14.JPG",
+    "static/media/fa-solid-900.woff2": "/tastymaria/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/menu.png": "/tastymaria/static/media/menu.4d867f657ad118272645.png",
+    "static/media/logotasty.jpg": "/tastymaria/static/media/logotasty.318d263eaa6fb5423d20.jpg",
+    "static/media/fa-brands-400.woff2": "/tastymaria/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/calamari.JPG": "/tastymaria/static/media/calamari.8cb0318e52919f93cc53.JPG",
+    "static/media/friedshrimp.jpeg": "/tastymaria/static/media/friedshrimp.f04b36c91ac14ebe441c.jpeg",
+    "static/media/fa-regular-400.ttf": "/tastymaria/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/tender.JPG": "/tastymaria/static/media/tender.5685e3f8d4bd1c30857c.JPG",
+    "static/media/sandwich.JPG": "/tastymaria/static/media/sandwich.a3d3baffa53a5cfb53a8.JPG",
+    "static/media/fa-regular-400.woff2": "/tastymaria/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/tm.png": "/tastymaria/static/media/tm.83db32edc1e00bc44470.png",
+    "static/media/fa-v4compatibility.ttf": "/tastymaria/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/tastymaria/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/tastymaria/index.html",
+    "static/media/spoon.svg": "/tastymaria/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
+    "main.601841a3.css.map": "/tastymaria/static/css/main.601841a3.css.map",
+    "main.39ca0a80.js.map": "/tastymaria/static/js/main.39ca0a80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.601841a3.css",
+    "static/js/main.39ca0a80.js"
+  ]
+}
