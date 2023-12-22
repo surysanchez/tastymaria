@@ -2,13 +2,15 @@
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import { React, useState } from 'react';
+import { Container } from 'react-bootstrap';
 import {BiWindowClose} from "react-icons/bi";
 import {IoMdCall} from "react-icons/io";
 
 const FindUs = () => {
   const [showForm, setShowForm] = useState(true);
   return (
-  <div className="app__bg app__wrapper section__padding" id="contact">
+    <Container fluid >
+  <div className="app__bg app__wrapper section__padding " id="contact ">
     <div className="app__wrapper_info">
       <SubHeading title="Getting in touch" />
     
@@ -42,13 +44,15 @@ const FindUs = () => {
               placeholder="Name"
               required
             />
+        
             <input
-              className="my-6 p-2 rounded-md border-2 border-[#605022]"
+              className="my-6 p-2 rounded-md border-2 border-[#605022] gap-2 "
               type="email"
               name="email"
               placeholder="Email"
               required
             />
+           
             <input
               className="my-4 p-8  border-2 border-[#605022] rounded-md"
               type="text"
@@ -57,6 +61,7 @@ const FindUs = () => {
               required
               placeholder="Message"
             />
+          
             {/* <div pt-8 text-center> */}
             <button type="submit" className="custom__button" style={{ marginTop: '2rem' }}
             > Send message
@@ -71,6 +76,7 @@ const FindUs = () => {
       <img src={images.findus} alt="finus_img" />
     </div>
   </div>
+  </Container>
 )
   }
 
