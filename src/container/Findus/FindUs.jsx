@@ -9,7 +9,7 @@ import {IoMdCall} from "react-icons/io";
 const FindUs = () => {
   const [showForm, setShowForm] = useState(true);
   return (
-    <Container fluid >
+   
   <div className="app__bg app__wrapper section__padding " id="contact ">
     <div className="app__wrapper_info">
       <SubHeading title="Getting in touch" />
@@ -76,7 +76,6 @@ const FindUs = () => {
       <img src={images.findus} alt="finus_img" />
     </div>
   </div>
-  </Container>
 )
   }
 
