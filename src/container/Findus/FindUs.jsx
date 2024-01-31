@@ -46,7 +46,7 @@ const FindUs = () => {
             />
         
             <input
-              className="my-6 p-2 rounded-md border-2 border-[#605022] gap-2 "
+              className="my-6 p-2 rounded-md border-2 border-[#605022] "
               type="email"
               name="email"
               placeholder="Email"
