@@ -10,7 +10,7 @@ const FindUs = () => {
   const [showForm, setShowForm] = useState(true);
   return (
    
-  <div className="app__bg app__wrapper section__padding " id="contact ">
+  <div className="app__bg app__wrapper section__padding " id="contact">
     <div className="app__wrapper_info">
       <SubHeading title="Getting in touch" />
     
