@@ -16,16 +16,24 @@ const SpecialMenu = () => {
                                       {/*MENU */}
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine flex__center">
-        <p className="app__specialMenu-menu_heading">Most Popular Fried or Grilled </p>
+        <p className="app__specialMenu-menu_heading">Popular Fried Seafood </p>
         <div className="app__specialMenu_menu_items">
         {data.friedfishes.map((friedfish, index) => (
             <MenuItem key={friedfish.title + index} title={friedfish.title} price={friedfish.price}  />
           ))}
         </div>
+        <Accordion >
+      <Accordion.Item eventKey="0">
+        <Accordion.Header className='menu__dropmenu'>Show Whole Menu Spanish</Accordion.Header>
+        <Accordion.Body className='container-menu-img'>
+          <img className='menu-img' src={images.tastymenuspanish} alt= 'tastymenu' />
+        </Accordion.Body>
+        </Accordion.Item>
+       </Accordion>
       </div>
 
       <div className="app__specialMenu-menu_img">
-        <img src={images.menu} alt="menu img" />
+        <img src={images.seashrimp} alt="menu img" />
       </div>
 
       <div className="app__specialMenu-menu_cocktails  flex__center">
@@ -35,22 +43,17 @@ const SpecialMenu = () => {
             <MenuItem key={sandwich.title + index} title={sandwich.title} price={sandwich.price} tags={sandwich.tags} />
           ))}
         </div>
-      </div>
-    </div>
-
-    <Accordion >
+        <Accordion>
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Show Menu</Accordion.Header>
+        <Accordion.Header className='menu__dropmenu'>Show Whole Menu English </Accordion.Header>
         <Accordion.Body className='container-menu-img'>
-          <img className='menu-img' src={images.tastymenu} alt= 'tastymenu' />
+          <img className='menu-img' src={images.tastymenuenglish} alt= 'tastymenu' />
         </Accordion.Body>
         </Accordion.Item>
        </Accordion>
 
-   
-   
-   
-  
+      </div>
+    </div>
   </div>
   )
 };

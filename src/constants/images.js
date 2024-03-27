@@ -1,43 +1,39 @@
 import bg from '../assets/bg.png';
 import tm from '../assets/tm.png';
-import knife from '../assets/knife.png';
 import logotasty from '../assets/logotasty.jpg';
-import tastymenu from '../assets/tastymenu.JPG';
+import tastymenuenglish from '../assets/tastymenuenglish.JPG';
+import tastymenuspanish from '../assets/tastymenuspanish.JPG';
 import overlaybg from '../assets/overlaybg.png';
-import menu from '../assets/menu.png';
 import spoon from '../assets/spoon.svg';
-import welcome from '../assets/welcome.png';
 import findus from '../assets/findus.JPG';
-import sandwich from '../assets/sandwich.JPG';
-import cocktail from '../assets/cocktail.jpeg';
+import sandwich from '../assets/sandwhich.JPG';
 import tender from '../assets/tender.JPG';
-import friedshrimp from '../assets/friedshrimp.jpeg';
-import friedfish from '../assets/friedfish.jpeg';
-import shrimp from '../assets/friedshrimp.jpeg';
+import friedfish from '../assets/friedfish.JPG';
 import seashrimp from '../assets/seashrimp.JPG';
 import fish from '../assets/fish.JPG';
 import calamari from '../assets/calamari.JPG';
+import friedcalamari from '../assets/friedcalamari.JPG';
+import minuta from '../assets/minuta.JPG';
+import bowl from '../assets/bowl.JPG';
 import quote from '../assets/quote.png';
 
 export default {
   bg,
   tm,
-  knife,
-  tastymenu,
+  tastymenuenglish,
+  tastymenuspanish,
   overlaybg,
-  menu,
   spoon,
-  welcome,
   findus,
   logotasty,
   sandwich,
-  cocktail,
   tender,
   friedfish,
-  friedshrimp,
-  shrimp,
   seashrimp,
   fish,
   calamari,
+  minuta,
+  friedcalamari,
+  bowl,
   quote,
 };

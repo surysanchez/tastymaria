@@ -16,13 +16,14 @@ const AboutUs = () => (
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="spoon" className="spoon__img" />
-        <p className="p__opensans" style={{ textTransform: "none" }}>
+        <p className="p__opensansabout" style={{ textTransform: "none" }}>
           Welcome to Tasty Maria where your taste buds take a delicious
           journey through the flavors of the sea! Our food truck business
           specializes in serving up an array of mouthwatering seafood dishes
           that are sure to satisfy your cravings. From crispy and golden fried
           seafood to succulent fried meats, flavorful sandwiches, and hearty
-          bowls, our diverse menu offers something for every palate. Whether
+          bowls, our diverse menu offers something for every palate. 
+          <br />Whether
           you're in the mood for a classic fish and chips, a hearty seafood
           sandwich, or a customized seafood bowl, Seaside Bites has got you
           covered. Join us on a culinary adventure that brings the essence of

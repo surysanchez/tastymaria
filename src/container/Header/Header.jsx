@@ -9,12 +9,12 @@ import { SubHeading } from '../../components';
 const Header = () => {
   return (
     <>
-    <MDBCarousel showControls fade>
+    <MDBCarousel showControls fade >
       <MDBCarouselItem itemId={1}>
-        <img src={images.fish} className='d-block w-100' alt='...' />
+        <img src={images.fish} className='d-block w-100 ' alt='...' />
       </MDBCarouselItem>
-      <MDBCarouselItem itemId={2}>
-        <img  src={images.cocktail} className='d-block w-100' alt='...' />
+      <MDBCarouselItem itemId={2} className='img2'>
+        <img  src={images.bowl} className='d-block w-100 ' alt='...' />
       </MDBCarouselItem>
       <MDBCarouselItem itemId={3}>
         <img   src={images.calamari} className='d-block w-100' alt='...' />
