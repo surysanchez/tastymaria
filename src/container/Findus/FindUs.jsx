@@ -7,7 +7,7 @@ import {BiWindowClose} from "react-icons/bi";
 import {IoMdCall} from "react-icons/io";
 
 const FindUs = () => {
-  const [showForm, setShowForm] = useState(true);
+  const [showForm, setShowForm] = useState(false);
   return (
    
   <div className="app__bg app__wrapper section__padding " id="contact">
