@@ -14,7 +14,7 @@ const friedfishes = [
     price: '$14.99',
   },
   {
-    title: 'Calamary',
+    title: 'Calamari',
     price: '$15',
   },
   {

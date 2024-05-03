@@ -52,8 +52,8 @@ const Footer = () => {
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
         <p className="p__opensans"></p>
-        <h4 className='p__cormorant ' >(786)-547-1341 </h4>
-        <p className="p__opensans" style={{textTransform:'lowercase'}}>tastymaria@gmail.com</p>
+        <h4 className='p__cormorant ' >(786) 471-7917 </h4>
+        <p className="p__opensans" style={{textTransform:'lowercase'}}>tastymaria1@gmail.com</p>
       </div>
 
       <div className="app__footer-links_logo">
@@ -110,14 +110,6 @@ const Footer = () => {
         </section>
       </MDBContainer>
     </MDBFooter>
-      </div>
-
-      <div className="app__footer-links_work">
-        <h1 className="app__footer-headtext">Working Hours</h1>
-        <p className="p__opensans">Monday-Friday:</p>
-        <p className="p__opensans">12:00pm - 12:00am</p>
-        <p className="p__opensans">Saturday-Sunday:</p>
-        <p className="p__opensans">12:00pm - 12:00 am</p>
       </div>
     </div>
 
