@@ -1,6 +1,6 @@
 import React from 'react';
 import { SubHeading, MenuItem } from '../../components';
-import { images, data } from '../../constants';
+import { images } from '../../constants';
 
 import './SpecialMenu.css';
 import Accordion from 'react-bootstrap/Accordion';
@@ -17,11 +17,11 @@ const SpecialMenu = () => {
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine flex__center">
         <p className="app__specialMenu-menu_heading">Popular Fried Seafood </p>
-        <div className="app__specialMenu_menu_items">
+        {/* <div className="app__specialMenu_menu_items">
         {data.friedfishes.map((friedfish, index) => (
             <MenuItem key={friedfish.title + index} title={friedfish.title} price={friedfish.price}  />
           ))}
-        </div>
+        </div> */}
         <Accordion >
       <Accordion.Item eventKey="0">
         <Accordion.Header className='menu__dropmenu'>Show Whole Menu Spanish</Accordion.Header>
@@ -36,13 +36,14 @@ const SpecialMenu = () => {
         <img src={images.seashrimp} alt="menu img" />
       </div>
 
-      <div className="app__specialMenu-menu_cocktails  flex__center">
+      {/* <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading">Sandwiches</p>
         <div className="app__specialMenu_menu_items">
           {data.sandwiches.map((sandwich, index) => (
             <MenuItem key={sandwich.title + index} title={sandwich.title} price={sandwich.price} tags={sandwich.tags} />
           ))}
         </div>
+        </div> */}
         <Accordion>
       <Accordion.Item eventKey="0">
         <Accordion.Header className='menu__dropmenu'>Show Whole Menu English </Accordion.Header>
@@ -52,7 +53,7 @@ const SpecialMenu = () => {
         </Accordion.Item>
        </Accordion>
 
-      </div>
+      
     </div>
   </div>
   )
