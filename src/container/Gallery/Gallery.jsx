@@ -25,7 +25,7 @@ const Gallery = () => {
       <div className="app__gallery-content">
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
-        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Some of our clients favarites!!!</p>
+        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Some of our clients favorites!!!</p>
         <button type="button" className="custom__button">
           <a  href="https://www.instagram.com/tasty_maria/?igshid=YTQwZjQ0NmI0OA%3D%3D" target="_blank"
                   rel="noopener noreferrer"

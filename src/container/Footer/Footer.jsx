@@ -2,10 +2,6 @@ import React from 'react';
 import { FiFacebook, FiInstagram } from 'react-icons/fi';
 import {IoMdCall} from "react-icons/io";
 import {
-  MDBFooter,
-  MDBContainer,
-  MDBCol,
-  MDBRow,
   MDBIcon,
   MDBBtn
 } from 'mdb-react-ui-kit';
@@ -62,54 +58,7 @@ const Footer = () => {
         <p></p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} alt='spoon'/>
   
-<MDBFooter className='text-center text-white app__footer-links_icons' >
-      <MDBContainer className='p-4 pb-0'>
-        <section className='mb-4'>
-          {/* <MDBBtn
-            floating
-            className='m-1'
-            style={{ backgroundColor: '#3b5998' }}
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab icon='facebook-f' />
-          </MDBBtn> */}
 
-          {/* <MDBBtn
-            floating
-            className='m-1'
-            style={{ backgroundColor: '#55acee' }}
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab icon='twitter' />
-          </MDBBtn> */}
-
-          <MDBBtn
-            floating
-            className='m-1'
-            style={{ backgroundColor: '#dd4b39' }}
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab icon='google' />
-          </MDBBtn>
-          <MDBBtn
-            floating
-            className='m-1'
-            style={{ backgroundColor: '#ac2bac' }}
-            href="https://www.instagram.com/tasty_maria/?igshid=YTQwZjQ0NmI0OA%3D%3D" target="_blank"
-            rel="noopener noreferrer"
-            alt="ig"
-            role='button'
-          >
-            <MDBIcon fab icon='instagram' />
-          </MDBBtn>
-
-    
-        </section>
-      </MDBContainer>
-    </MDBFooter>
       </div>
     </div>
 

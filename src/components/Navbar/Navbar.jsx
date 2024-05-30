@@ -4,6 +4,14 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import images from '../../constants/images';
 import './Navbar.css';
+import {
+  MDBFooter,
+  MDBContainer,
+  MDBCol,
+  MDBRow,
+  MDBIcon,
+  MDBBtn
+} from 'mdb-react-ui-kit';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
@@ -18,6 +26,33 @@ const Navbar = () => {
         <li className="p__cormorant"><a href="#menu">Menu</a></li>
         <li className="p__cormorant"><a href="#contact">Contact</a></li>
       </ul>
+     
+      <MDBFooter className='text-center text-white app__footer-links_icons' >
+      <MDBContainer className='p-4 pb-0'>
+        <section className='mb-4'>
+          <MDBBtn
+            floating
+            className='m-1'
+            style={{ backgroundColor: '#dd4b39' }}
+            href='#!'
+            role='button'
+          >
+            <MDBIcon fab icon='google' />
+          </MDBBtn>
+          <MDBBtn
+            floating
+            className='m-1'
+            style={{ backgroundColor: '#ac2bac' }}
+            href="https://www.instagram.com/tasty_maria/?igshid=YTQwZjQ0NmI0OA%3D%3D" target="_blank"
+            rel="noopener noreferrer"
+            alt="ig"
+            role='button'
+          >
+            <MDBIcon fab icon='instagram' />
+          </MDBBtn>
+        </section>
+      </MDBContainer>
+    </MDBFooter>
         <a href="#contact" className="p__cormorant">Catering</a>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />

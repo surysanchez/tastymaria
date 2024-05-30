@@ -1,12 +1,16 @@
-import React from 'react';
-import { SubHeading, MenuItem } from '../../components';
+import {useState, React} from 'react';
+import { SubHeading} from '../../components';
 import { images } from '../../constants';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
 import './SpecialMenu.css';
-import Accordion from 'react-bootstrap/Accordion';
 
 const SpecialMenu = () => {
+  const [lgShow, setLgShow] = useState(false);
+  
   return (
+    <>
   <div className='app__specialMenu flex__center section__padding' id='menu' >
     <div className='app__specialMenu-title'>
       <SubHeading title="Explore our unique and diverse dishes"  />
@@ -16,47 +20,35 @@ const SpecialMenu = () => {
                                       {/*MENU */}
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine flex__center">
-        <p className="app__specialMenu-menu_heading">Popular Fried Seafood </p>
-        {/* <div className="app__specialMenu_menu_items">
-        {data.friedfishes.map((friedfish, index) => (
-            <MenuItem key={friedfish.title + index} title={friedfish.title} price={friedfish.price}  />
-          ))}
-        </div> */}
-        <Accordion >
-      <Accordion.Item eventKey="0">
-        <Accordion.Header className='menu__dropmenu'>Show Whole Menu Spanish</Accordion.Header>
-        <Accordion.Body className='container-menu-img'>
-          <img className='menu-img' src={images.tastymenuspanish} alt= 'tastymenu' />
-        </Accordion.Body>
-        </Accordion.Item>
-       </Accordion>
+        <p className="app__specialMenu-menu_heading">Our Popular Seafood Dishes </p>
       </div>
-
       <div className="app__specialMenu-menu_img">
         <img src={images.seashrimp} alt="menu img" />
       </div>
 
-      {/* <div className="app__specialMenu-menu_cocktails  flex__center">
-        <p className="app__specialMenu-menu_heading">Sandwiches</p>
-        <div className="app__specialMenu_menu_items">
-          {data.sandwiches.map((sandwich, index) => (
-            <MenuItem key={sandwich.title + index} title={sandwich.title} price={sandwich.price} tags={sandwich.tags} />
-          ))}
-        </div>
-        </div> */}
-        <Accordion>
-      <Accordion.Item eventKey="0">
-        <Accordion.Header className='menu__dropmenu'>Show Whole Menu English </Accordion.Header>
-        <Accordion.Body className='container-menu-img'>
-          <img className='menu-img' src={images.tastymenuenglish} alt= 'tastymenu' />
-        </Accordion.Body>
-        </Accordion.Item>
-       </Accordion>
-
+      <Button onClick={() => setLgShow(true)}>Show Whole Menu</Button>
+      <Modal
+        size="lg"
+        show={lgShow}
+        onHide={() => setLgShow(false)}
+        aria-labelledby="contained-modal-title-vcenter"
+      centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="example-modal-sizes-title-lg">
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <img src="" alt="" />
+        </Modal.Body>
+      </Modal>
       
     </div>
   </div>
+  </>
   )
 };
+
+
 
 export default SpecialMenu;
