@@ -25,7 +25,7 @@ const SpecialMenu = () => {
       <div className="app__specialMenu-menu_img">
         <img src={images.seashrimp} alt="menu img" />
       </div>
-
+ <div className="app__specialMenu-Btn flex__center">
       <Button onClick={() => setLgShow(true)}>Show Whole Menu</Button>
       <Modal
         size="lg"
@@ -39,10 +39,10 @@ const SpecialMenu = () => {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <img src="" alt="" />
+          <img src={images.MenuP} className="img-fluid"  alt="" />
         </Modal.Body>
       </Modal>
-      
+      </div>
     </div>
   </div>
   </>

@@ -22,7 +22,7 @@ const AboutUs = () => (
           sandwiches, we're here to satisfy your cravings with fresh ingredients
           and bold flavors. Join us for a taste of the sea with a Latin twist!  <br /> 
           <h4>  Call us: (786) 471-7917  </h4>
-     8590 SW 8th St MIAMI, FL 33144
+      <h3 className="headtext__cormorant"> 8590 SW 8th St MIAMI, FL 33144</h3>
         </p>
       </div>
     

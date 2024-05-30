@@ -9,17 +9,25 @@ import { SubHeading } from '../../components';
 const Header = () => {
   return (
     <>
-    <MDBCarousel showControls fade >
+  <img src={images.collage} className='img-fluid shadow-4' alt='...' />
+
+    {/* <MDBCarousel showControls fade fluid>
       <MDBCarouselItem itemId={1}>
-        <img src={images.fish} className='d-block w-100 ' alt='...' />
+        <img src={images.sandMinuta} className='d-block w-100 ' alt='...' />
+      </MDBCarouselItem> */}
+      {/* <MDBCarouselItem itemId={2} className='img2'>
+        <img  src={images.bowl} className='d-block w-100 bowl ' alt='...' />
+      </MDBCarouselItem> */}
+      {/* <MDBCarouselItem itemId={3}>
+        <img   src={images.front} className='d-block w-100' alt='...' />
+      </MDBCarouselItem> */}
+      {/* <MDBCarouselItem itemId={4}>
+        <img   src={images.salmon} className='d-block w-100' alt='...' />
       </MDBCarouselItem>
-      <MDBCarouselItem itemId={2} className='img2'>
-        <img  src={images.bowl} className='d-block w-100 ' alt='...' />
+      <MDBCarouselItem itemId={5}>
+        <img   src={images.foodFront} className='d-block w-100' alt='...' />
       </MDBCarouselItem>
-      <MDBCarouselItem itemId={3}>
-        <img   src={images.calamari} className='d-block w-100' alt='...' />
-      </MDBCarouselItem>
-    </MDBCarousel>
+    </MDBCarousel> */}
     </>
   )
 };
